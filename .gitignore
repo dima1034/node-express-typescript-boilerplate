@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage
+coverage
+
+# Transpiled files
+# dist/
+
+# Typing
+typings/
+
+# VS Code
+#.vscode
+#!.vscode/tasks.js
+#!.vscode/launch.json
+
+# IDEs
+.idea/
+*.swp
+.awcache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+# Generated source-code
+src/**/*.js
+src/**/*.js.map
+test/**/*.js
+test/**/*.js.map
+coverage/
+!test/preprocessor.js
